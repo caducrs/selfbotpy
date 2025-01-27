@@ -1,32 +1,39 @@
-#SelfBotPy Documentation
-Overview
-SelfBotPy is a Python-based Discord self-bot designed to automate certain tasks for a Discord account. Built using the discord.py library, it enables users to perform various actions like message purging, user banning, and avatar cloning.
+# SelfBotPy Documentation
 
-Features
-Purge: Delete all messages from a specific channel.
-Ronyban: Ban users by a simple command.
-Avatar: Clone user avatars or gifs.
-Installation
-Clone the repository:
-bash
-Copiar
-Editar
-git clone https://github.com/caducrs/selfbotpy
-Install required dependencies:
-bash
-Copiar
-Editar
-pip install -r requirements.txt
-Replace the token in the script with your Discord account token.
-Usage
-After setting up, run the bot:
+## Overview
+SelfBotPy is a Python-based self-bot for Discord, built with `discord.py`. It automates certain tasks for a user’s account, such as:
+- **Purge**: Deletes all messages from a specified channel.
+- **Ronyban**: Bans users with a simple command.
+- **Avatar**: Clones user avatars or gifs.
 
-bash
-Copiar
-Editar
-python selfbot.py
-The bot will await commands like !purge, !ronyban, or !avatar.
+## Features
+- **Purge**: Bulk delete messages from a channel.
+- **Ronyban**: Easy user banning via a single command.
+- **Avatar**: Clone a user's avatar or gif.
 
-Important Notes
-Discord's Terms of Service: Self-bots violate Discord’s Terms of Service, which could result in the suspension or banning of your account. Use with caution.
-Token Safety: Keep your token private. Never share it publicly.
+## Installation
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/caducrs/selfbotpy
+    ```
+2. Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+3. Replace the token in the script with your Discord account token.
+
+## Usage
+1. Run the bot:
+    ```bash
+    python selfbot.py
+    ```
+2. Commands:
+    - `!purge`: Deletes messages.
+    - `!ronyban <user>`: Bans a user.
+    - `!avatar <user>`: Clones a user's avatar.
+
+## Important Notes
+- **Terms of Service**: Self-bots violate Discord’s Terms of Service, and use can lead to account suspension. Use at your own risk.
+- **Token Safety**: Keep your token secure and do not share it publicly.
+
+
